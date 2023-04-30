@@ -1,0 +1,15 @@
+create database agenda2023
+
+create table contacto
+(
+	id varchar(500) primary key not null,
+    contacto varchar(500),
+    puesto varchar(500),
+    empresa varchar(500),
+    tipo varchar(500),
+    prioridad varchar(500),
+    telefono varchar(500),
+    correo varchar(500),
+    nota text,
+    foto varchar(500)
+);
